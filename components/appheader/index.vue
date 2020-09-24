@@ -1,8 +1,8 @@
 <template>
     <div class="container">
         <nav>
-            <h1>User Authentication.</h1>
-            <img src="../../assets/logo.svg" alt="" srcset="">
+            <h1> <nuxt-link to="/"> User Auth.</nuxt-link></h1>
+            <nuxt-link to="/"><img src="../../assets/logo.svg" alt="" srcset=""></nuxt-link>
         </nav>
     </div>
 </template>
@@ -29,9 +29,10 @@ nav{
     margin: auto;
     height: 10vh;
 }
-h1{
+h1, a{
     color: #00C58E;
     font-weight: 400;
     font-size: clamp(20px, 2vw, 30px);
+    text-decoration: none;
 }
 </style>

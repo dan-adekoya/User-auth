@@ -13,6 +13,11 @@
 <script>
 export default {
   name: 'index',
+  head(){
+      return{
+          title: 'Sign In'
+      }
+  },
   data() {
     return {
       
@@ -60,6 +65,9 @@ form .submit{
 a{
   color: #00C58E;
   text-decoration: none;
+}
+p{
+    font-size: 14px;
 }
 @media screen and (max-width: 500px){
   form{
