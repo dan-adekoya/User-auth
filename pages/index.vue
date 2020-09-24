@@ -61,6 +61,7 @@ form .submit{
   border: 2px solid #00C48D;
   color: #FFFFFF;
   font-size: 20px;
+  opacity: 100%;
   cursor: pointer;
 }
 a{
