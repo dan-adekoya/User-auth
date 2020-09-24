@@ -1,12 +1,11 @@
 <template>
   <div class="container">
     <form>
-      <h2>Sign Up.</h2>
+      <h2>Sign In.</h2>
       <input type='text' placeholder="Name.">
-      <input type='email' placeholder="Email.">
       <input type='password' placeholder="Password.">
       <input class="submit" type='button' value="Enter">
-      <p>Already have an account? <nuxt-link to='/signin'>Sign in</nuxt-link></p>
+      <p>Don't have an account? <nuxt-link to='/'>Sign Up</nuxt-link></p>
     </form>
   </div>
 </template>
