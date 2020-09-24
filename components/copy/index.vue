@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>&copy Copyrights</h3>
+        <h3>&copy; Copyrights</h3>
     </div>
 </template>
 

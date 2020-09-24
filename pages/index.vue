@@ -16,7 +16,7 @@ export default {
   name: 'index',
   head(){
     return{
-      title: 'Sign Up'
+      title: 'Sign Up',
     }
   },
   data() {
