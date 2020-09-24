@@ -4,7 +4,7 @@
       <h2>Sign In.</h2>
       <input type='text' placeholder="Name.">
       <input type='password' placeholder="Password.">
-      <input class="submit" type='button' value="Enter">
+      <button class="submit" type="submit">Enter</button>
       <p>Don't have an account? <nuxt-link to='/'>Sign Up</nuxt-link></p>
     </form>
   </div>
@@ -42,7 +42,7 @@ form{
   border: 4px solid #00C48D;
   border-radius: 10px; 
 }
-form input{
+form input, button{
   width: 100%;
   padding: 15px;
   margin: 10px 0;
